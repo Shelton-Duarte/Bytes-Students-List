@@ -140,7 +140,7 @@ export const ListsUsers = () => {
                   <MinusCircleIcon className="h-5 w-5" />
                 </button>
                 
-                <Link to={`/lists/${users.linkUrl}`}>
+                <Link to={`/lists${user.linkUrl}`}>
                   <button
                     className="text-green-bytes hover:text-green-600"
                   >

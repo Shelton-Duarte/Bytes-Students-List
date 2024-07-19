@@ -19,7 +19,7 @@ export const route = createBrowserRouter([
     element: <Contact />,
   },
   {
-    path: "/lists/:linkLabel",
+    path: "/lists/users/:linkLabel",
     element: <Details />,
   },
 ]);
